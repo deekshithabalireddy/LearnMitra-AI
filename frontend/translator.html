@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Translator | LearnMitra-AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">LearnMitra<span>-AI</span></h2>
+            <a href="index.html">Home</a>
+<a href="translator.html">Translator</a>
+<a href="assistant.html">Learning Assistant</a>
+<a href="quiz.html">Quiz</a>
+<a href="chat.html">Chatbot</a>
+<a href="history.html">Learning History</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="translator.html">Translator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="translator-section">
+
+        <h1>AI Language Translator</h1>
+
+        <p>Translate educational content into your preferred language.</p>
+
+        <div class="translator-box">
+
+            <div class="language-selection">
+                <div>
+                    <label>Translate From</label>
+                    <select id="sourceLanguage">
+                        <option value="English">English</option>
+                        <option value="Telugu">Telugu</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Kannada">Kannada</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Translate To</label>
+                    <select id="targetLanguage">
+                        <option value="Telugu">Telugu</option>
+                        <option value="English">English</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Kannada">Kannada</option>
+                    </select>
+                </div>
+            </div>
+
+            <label>Enter Your Text</label>
+
+            <textarea id="inputText"
+                placeholder="Enter text you want to translate..."></textarea>
+
+            <button class="primary-button" onclick="translateText()">
+                Translate Text
+            </button>
+
+            <h3>Translated Result</h3>
+
+            <div id="outputText" class="output-box">
+                Your translated text will appear here.
+            </div>
+
+            <button class="nav-button" onclick="copyTranslation()">
+                Copy Translation
+            </button>
+
+            <p id="status"></p>
+
+        </div>
+    </section>
+
+    <script src="translator.js"></script>
+</body>
+</html>

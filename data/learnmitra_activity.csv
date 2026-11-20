@@ -1,0 +1,183 @@
+﻿activity_type,input,language,result,created_at,source_language,target_language
+chat,matrices,Hindi,"नमस्ते! मैं **LearnMitra-AI** हूँ, आपका पढ़ाई का दोस्त। 
+
+चलिए, आज बहुत ही आसान तरीके से समझते हैं कि **मैट्रिक्स (Matrices)** क्या होता है!
+
+### मैट्रिक्स (Matrix) क्या है?
+
+सोचिए आपके पास बहुत सारा सामान है, और उसे आपको रखने के लिए एक अलमारी (cupboard) की ज़रूरत है जिसमें बहुत सारे खाने (boxes) बने हों। 
+
+बस! **मैट्रिक्स संख्याओं (numbers) या डेटा को एक कतार (Rows) और कॉलम (Columns) में सजाने का एक तरीका है।** 
+
+इसे आप एक **'चार्ट' या 'सारणी'** की तरह समझ सकते हैं।
+
+---
+
+### एक आसान उदाहरण (Student-Friendly Example):
+
+मान लीजिए, आपके तीन दोस्तों (अमित, प्रिया और राहुल) के पास गणित और विज्ञान में कितने नंबर आए, यह आपको लिखना है। 
+
+इसे हम एक मैट्रिक्स में ऐसे दिखा सकते हैं:
+
+$$\begin{bmatrix} 80 & 90 \\ 70 & 85 \\ 95 & 88 \end{bmatrix}$$
+
+यहाँ पर:
+* **रो (Rows - लेटी हुई लाइनें):** हर एक लाइन एक छात्र के नंबर बता रही है।
+* **कॉलम (Columns - खड़ी लाइनें):** पहला कॉलम 'गणित' (Maths) के नंबर का है और दूसरा कॉलम 'विज्ञान' (Science) के नंबर का है।
+
+---
+
+### मैट्रिक्स का इस्तेमाल कहाँ होता है?
+1. **वीडियो गेम में:** जब आप गेम खेलते हैं, तो उसमें 3D कैरेक्टर और ग्राफिक्स को घुमाने के लिए मैट्रिक्स का ही इस्तेमाल होता है।
+2. **कंप्यूटर और मोबाइल में:** डेटा को सही जगह पर सेव करने के लिए।
+
+अगर आपको इसके बारे में और कुछ पूछना है, या सवाल हल करना सीखना है, तो बेझिझक पूछिए!",2026-11-20 18:15:11,,
+quiz,eigen values,English,"{""questions"": [{""question"": ""What is the equation used to find the eigenvalues of a square matrix A?"", ""options"": [""det(A - \\lambda I) = 0"", ""det(A + \\lambda I) = 0"", ""Av = \\lambda"", ""A - \\lambda I = 0""], ""answer"": ""det(A - \\lambda I) = 0""}, {""question"": ""If $\\lambda$ is an eigenvalue of a matrix A, and v is the corresponding eigenvector, which of the following relations holds true?"", ""options"": [""Av = \\lambda v"", ""Av = v / \\lambda"", ""A\\lambda = v"", ""vA = \\lambda v""], ""answer"": ""Av = \\lambda v""}, {""question"": ""What is the sum of the eigenvalues of a square matrix equal to?"", ""options"": [""The determinant of the matrix"", ""The trace of the matrix"", ""Zero"", ""The rank of the matrix""], ""answer"": ""The trace of the matrix""}, {""question"": ""What is the product of the eigenvalues of a square matrix equal to?"", ""options"": [""The trace of the matrix"", ""The transpose of the matrix"", ""The determinant of the matrix"", ""The inverse of the matrix""], ""answer"": ""The determinant of the matrix""}, {""question"": ""What are the eigenvalues of an identity matrix of size n?"", ""options"": [""All zeros"", ""All ones"", ""Values from 1 to n"", ""Undefined""], ""answer"": ""All ones""}]}",2026-11-20 10:38:22,,
+chat,hii?,English,"Hello! I am LearnMitra-AI, your friendly learning buddy. 
+
+How can I help you learn something new and fun today? You can ask me questions about science, math, history, or anything else you are curious about!",2026-11-16 09:40:37,,
+explanation,web technology,English,"Hello! Let's talk about **Web Technology**. 
+
+Think of the internet as a giant magical city. **Web technology** is the set of tools, languages, and rules that we use to build the buildings (websites) in that city so we can visit them, play games, and do our homework.
+
+Here is a simple breakdown of how it works, using an example you already know: **YouTube**.
+
+---
+
+### The Three Main Building Blocks
+
+Every website you visit is built using three main technologies. Think of them like building a house:
+
+#### 1. HTML (The Skeleton / Structure)
+*   **What it is:** HTML stands for *HyperText Markup Language*. It gives a webpage its basic structure. It tells the browser, ""Put a heading here, put an image here, and put a paragraph of text there.""
+*   **Student Example:** On YouTube, HTML is what puts the video player on your screen, places the title of the video, and creates the comment section. Without HTML, it’s just a blank page.
+
+#### 2. CSS (The Paint & Clothes / Design)
+*   **What it is:** CSS stands for *Cascading Style Sheets*. This is what makes a website look pretty. It adds colors, fonts, backgrounds, and decides where things are positioned on the page. 
+*   **Student Example:** CSS is what paints the YouTube logo red, makes the background dark mode (if you like), and puts the subscribe button in a nice rounded box. 
+
+#### 3. JavaScript (The Brains / Interactivity)
+*   **What it is:** JavaScript is a programming language that makes websites **alive**. HTML and CSS just sit there, but JavaScript makes things happen when you click, type, or swipe.
+*   **Student Example:** When you click the ""Thumbs Up"" button on a YouTube video and it instantly turns blue and the number goes up by one? That is JavaScript working behind the scenes. 
+
+---
+
+### How Does It Get to Your Computer?
+
+To understand web technology, you also need to know how you see these websites. It’s like ordering food at a restaurant:
+
+1.  **The Client (You / The Browser):** You open Google Chrome, Safari, or Microsoft Edge on your laptop or phone. You type `youtube.com`. You are the ""client"" asking for something.
+2.  **The Request:** Your browser sends a message through the internet asking YouTube's computer for the page.
+3.  **The Server (The Kitchen):** A **Server** is a giant, super-powerful computer sitting in a faraway building. It holds all the files (HTML, CSS, JavaScript, and videos) for YouTube. 
+4.  **The Response:** The server says, ""Sure! Here are the files,"" and sends them back to your browser. Your browser reads the files in a split second, and *boom*—YouTube appears on your screen!
+
+---
+
+### Why is Web Technology Important?
+Without web technology, the internet would just be boring pages of plain text. Because of HTML, CSS, JavaScript, and servers, we can:
+*   Watch videos on YouTube and TikTok.
+*   Chat with friends on WhatsApp Web.
+*   Play online games.
+*   Do our school research on Google.
+
+In short, web technology is the secret recipe that turns computer code into the awesome websites we use every single day!",2026-11-16 09:39:25,,
+explanation,web technology,English,"Welcome to the world of **Web Technology**! 
+
+If you have ever used the internet to watch a YouTube video, scroll through Instagram, or play a game online, you have used web technology. 
+
+Simply put, **web technology** is the set of tools, languages, and systems that make websites and apps work on the internet. 
+
+Think of building a website like building a **house**. To build a nice house, you need three main things: a frame, interior design, and electricity/plumbing. Web technology works the exact same way. It uses **three main heroes**:
+
+---
+
+### 1. HTML: The Skeleton (The Frame)
+* **What it stands for:** HyperText Markup Language.
+* **What it does:** HTML is the basic building block of every webpage. It gives the page its structure. It tells the browser, *""Put a heading here, put a picture here, and put a paragraph here.""*
+* **Student Example:** Think of HTML as the **brick walls and rooms** of a house. It doesn't look pretty yet, but the structure is there.
+
+### 2. CSS: The Style (The Paint and Decor)
+* **What it stands for:** Cascading Style Sheets.
+* **What it does:** CSS is what makes websites look good. It adds colors, nice fonts, background pictures, and decides where things are placed on the screen. 
+* **Student Example:** CSS is like painting the walls, adding carpets, hanging curtains, and choosing the furniture for your house. Without CSS, websites would just look like boring black-and-white school essays.
+
+### 3. JavaScript: The Brain (The Electricity and Appliances)
+* **What it does:** JavaScript makes websites **interactive**. It’s what happens when you click a button and something pops up, or when a video starts playing, or when a game reacts when you press the keyboard.
+* **Student Example:** JavaScript is like the **electricity, lights, and TV** in your house. When you flip a switch (click a button), something happens!
+
+---
+
+### Other Cool Parts of Web Technology
+Apart from those three, web technology also includes:
+
+* **Web Browsers:** These are the apps you use to view websites, like Google Chrome, Safari, or Microsoft Edge. They act like the ""translators"" that read HTML, CSS, and JavaScript and turn them into the beautiful pages you see.
+* **Servers:** Imagine a massive computer that never sleeps. When you type ""youtube.com,"" your computer asks a server, *""Hey, can I see the YouTube homepage?""* and the server sends all the code to your phone or laptop in milliseconds.
+
+### Summary
+* **HTML** builds the skeleton.
+* **CSS** makes it look pretty.
+* **JavaScript** makes it work and move. 
+
+Put them all together, and you have **Web Technology**—the magic behind every website on the internet!",2026-11-16 09:39:24,,
+chat,What is photosynthesis?,Telugu,"నమస్తే! నేను మీ లెర్న్ మిత్ర-AI (LearnMitra-AI).
+
+ఫోటోసింథసిస్ (Photosynthesis) అంటే **""కిరణజన్య సంయోగక్రియ""**. 
+
+ఇది చాలా సులభం! చెట్లు మరియు మొక్కలు తమకు కావలసిన ఆహారాన్ని తామే తయారు చేసుకునే పద్ధతినే 'ఫోటోసింథసిస్' అంటారు.
+
+దీనికి **నాలుగు** ముఖ్యమైనవి కావాలి:
+1. **సూర్యరశ్మి** (సూర్యుని వెలుతురు)
+2. **నీరు** (మనం వేర్ల ద్వారా పోసేది)
+3. **కార్బన్ డై ఆక్సైడ్** (గాలిలో ఉండే వాయువు)
+4. **క్లోరోఫిల్** (ఆకులలో ఉండే పచ్చని రంగు పదార్థం)
+
+**ఒక చిన్న ఉదాహరణ:**
+మీ అమ్మగారు వంటింట్లో రకరకాల పదార్థాలు (బియ్యం, పప్పు, ఉప్పు) కలిపి రుచికరమైన వంటకం ఎలా తయారు చేస్తారో... అలాగే, మొక్కలు కూడా సూర్యరశ్మి, నీరు, గాలిని ఉపయోగించి వంట గది లాంటి తమ **ఆకుల** ద్వారా ఆహారాన్ని (పిండి పదార్థాన్ని) తయారు చేసుకుంటాయి! 
+
+ఈ ప్రక్రియలో మొక్కలు మనకు పీల్చడానికి **ఆక్సిజన్ (Oxygen)** ఇస్తాయి. అందుకే మొక్కలు మనకు ప్రాణంతో సమానం!",2026-11-15 22:17:19,,
+quiz,Photosynthesis,Telugu,"{""questions"": [{""question"": ""కిరణజన్య సంయోగక్రియ (Photosynthesis) జరగడానికి ఏది అత్యవసరం?"", ""options"": [""సూర్యకాంతి, కార్బన్ డై ఆక్సైడ్, నీరు"", ""ఆక్సిజన్ మరియు నైట్రోజన్"", ""కేవలం నీరు మరియు ఉప్పు"", ""కార్బన్ మోనాక్సైడ్""], ""answer"": ""సూర్యకాంతి, కార్బన్ డై ఆక్సైడ్, నీరు""}, {""question"": ""మొక్కలలో కిరణజన్య సంయోగక్రియ జరిగే ప్రదేశం ఏది?"", ""options"": [""మైటోకాండ్రియా"", ""క్లోరోప్లాస్ట్ (హరితరేణువు)"", ""రైబోజోములు"", ""న్యూక్లియస్""], ""answer"": ""క్లోరోప్లాస్ట్ (హరితరేణువు)""}, {""question"": ""మొక్కల ఆకులకు పచ్చని రంగును ఇచ్చే వర్ణద్రవ్యం (pigment) ఏది?"", ""options"": [""శాంతోఫిల్"", ""కెరోటిన్"", ""క్లోరోఫిల్"", ""ఆంథోసయనిన్""], ""answer"": ""క్లోరోఫిల్""}, {""question"": ""కిరణజన్య సంయోగక్రియ ఫలితంగా వెలువడే వాయువు ఏది?"", ""options"": [""కార్బన్ డై ఆక్సైడ్"", ""నైట్రోజన్"", ""ఆక్సిజన్"", ""హైడ్రోజన్""], ""answer"": ""ఆక్సిజన్""}, {""question"": ""కిరణజన్య సంయోగక్రియ సమయంలో మొక్కలు వాతావరణం నుండి ఏ వాయువును పీల్చుకుంటాయి?"", ""options"": [""ఆక్సిజన్"", ""కార్బన్ డై ఆక్సైడ్"", ""హీలియం"", ""నైట్రోజన్""], ""answer"": ""కార్బన్ డై ఆక్సైడ్""}]}",2026-11-15 22:14:10,,
+explanation,Photosynthesis,Telugu,"**ఫోటోసింథసిస్ (Photosynthesis) - కిరణజన్య సంయోగక్రియ**
+
+సృష్టిలో మొక్కలు లేకపోతే మనం జీవించడం అసధ్యం. మొక్కలు మనకు ప్రాణవాయువు (ఆక్సిజన్) మరియు ఆహారాన్ని ఇస్తాయి. మరి మొక్కలు తమకు కావలసిన ఆహారాన్ని ఎలా తయారు చేసుకుంటాయో మీకు ఎప్పుడైనా సందేహం వచ్చిందా? 
+
+అదే **'ఫోటోసింథసిస్' (Photosynthesis)**! తెలుగులో దీన్ని **'కిరణజన్య సంయోగక్రియ'** అంటారు. 
+
+దీన్ని చాలా సులభంగా అర్థం చేసుకుందాం:
+
+### 1. అసలు ఫోటోసింథసిస్ అంటే ఏమిటి?
+'ఫోటో' (Photo) అంటే **కాంతి (Light)** అని, 'సింథసిస్' (Synthesis) అంటే **తయారు చేయడం** అని అర్థం. అంటే, మొక్కలు **సూర్యకాంతిని ఉపయోగించి తమ ఆహారాన్ని తాము తయారు చేసుకునే ప్రక్రియే** 'ఫోటోసింథసిస్'.
+
+### 2. దీనికి ఏమేమి కావాలి? (కావలసిన పదార్థాలు)
+వంట చేయడానికి మనకు ఎలాగైతే బియ్యం, పప్పు, ఉప్పు కావాలో... మొక్కలు తమ వంట (ఆహారం) చేయడానికి ఈ క్రింది 4 ముఖ్యమైనవి కావాలి:
+
+1. **సూర్యకాంతి (Sunlight):** సూర్యుని నుండి వచ్చే ఎండ శక్తి.
+2. **కార్బన్ డై ఆక్సైడ్ (Carbon Dioxide):** మనం వదిలే గాలి (ఇది గాలిలో ఉంటుంది).
+3. **నీరు (Water):** వేర్ల ద్వారా నేల నుండి పీల్చుకునే నీరు.
+4. **క్లోరోఫిల్ (Chlorophyll):** ఆకులలో ఉండే ఒక పచ్చటి పదార్థం. (దీని వల్లే ఆకులు పచ్చగా ఉంటాయి).
+
+### 3. వంట ఎలా జరుగుతుంది? (ప్రక్రియ)
+* మొక్కల వేర్లు నేల నుండి నీటిని పీల్చుకుని, కాండం ద్వారా ఆకులకు పంపిస్తాయి.
+* ఆకులు గాలి నుండి కార్బన్ డై ఆక్సైడ్‌ను పీల్చుకుంటాయి.
+* ఆకులలో ఉండే **'క్లోరోఫిల్'**, సూర్యుని కాంతిని తనలో ఇముడ్చుకుంటుంది (లాక్కుంటుంది).
+* ఇప్పుడు ఆకులలో నీరు, కార్బన్ డై ఆక్సైడ్, సూర్యకాంతి కలిపి ఒక రసాయన ప్రక్రియ జరిగి, మొక్కకు కావలసిన **గ్లూకోజ్ (చక్కెర రూపంలో ఉండే ఆహారం)** తయారవుతుంది.
+
+### 4. దీని వల్ల మనకు లాభం ఏమిటి?
+మొక్కలు తమకు కావలసిన ఆహారాన్ని తయారు చేసుకునే ఈ ప్రక్రియలో, రెండు అద్భుతమైనపని జరుగుతాయి:
+1. మొక్కలు తయారుచేసిన ఆహారాన్ని తిని జీవులు బతుకుతాయి.
+2. ఈ ప్రక్రియ పూర్తయ్యాక, మొక్కలు **'ఆక్సిజన్' (Oxygen)** అనే మంచి గాలిని బయటకు వదులుతాయి. మనం పీల్చే ప్రాణవాయువు ఇదే!
+
+---
+
+### **ఒక చిన్న ఉదాహరణ (Student Example):**
+
+మీ ఇంట్లో మీ అమ్మగారు వంట గదిలో గ్యాస్ స్టవ్ వెలిగించి, గిన్నె పెట్టి, కూరగాయలు వేసి రుచికరమైన అన్నం వండుతారు కదా! 
+
+ఇక్కడ మొక్కల ఆకులే వాటి **వంటగది**. 
+* **సూర్యుడు** - గ్యాస్ స్టవ్ లాంటివాడు (వేడిని ఇస్తాడు).
+* **నీరు మరియు కార్బన్ డై ఆక్సైడ్** - వంట పదార్థాలు.
+* **క్లోరోఫిల్** - వంట చేసే అమ్మ (పని జరగడానికి సహాయపడుతుంది).
+* తయారైన **ఆహారం** - మొక్క ఎదుగదలకు ఉపయోగపడుతుంది.
+* బైటకు వచ్చే **ఆక్సిజన్** - మనకు ఇస్తున్న బహుమతి!
+
+అందుకే, మొక్కలు మనకు ప్రాణాధారం. మనం వీలైనన్ని ఎక్కువ **మొక్కలను నాటి, వాటిని కాపాడుకోవాలి!**",2026-11-15 22:10:23,,
+translation,Education is important for everyone.,,ప్రతి ఒక్కరికీ చదువు చాలా ముఖ్యం.,2026-11-15 22:04:28,English,Telugu

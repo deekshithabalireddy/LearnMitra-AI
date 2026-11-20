@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot | LearnMitra-AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>LearnMitra-AI</h2>
+        <a href="index.html">Home</a>
+<a href="translator.html">Translator</a>
+<a href="assistant.html">Learning Assistant</a>
+<a href="quiz.html">Quiz</a>
+<a href="chat.html">Chatbot</a>
+<a href="history.html">Learning History</a>
+       
+    </nav>
+
+    <section class="translator-container">
+
+        <h1>AI Learning Chatbot</h1>
+        <p>Ask your doubts and learn with AI.</p>
+
+        <label for="language">Select Language</label>
+
+        <select id="language">
+            <option value="English">English</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Kannada">Kannada</option>
+        </select>
+
+        <div id="chat-box">
+            <p>Welcome to LearnMitra-AI! Ask me anything.</p>
+        </div>
+
+        <label for="message">Your Question</label>
+
+        <input
+            type="text"
+            id="message"
+            placeholder="Type your question..."
+        >
+
+        <button onclick="sendMessage()">
+            Send Message
+        </button>
+
+    </section>
+
+    <script src="chat.js"></script>
+
+</body>
+</html>

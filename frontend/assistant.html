@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Assistant | LearnMitra-AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>LearnMitra-AI</h2>
+        <a href="index.html">Home</a>
+        <a href="translator.html">Translator</a>
+        <a href="assistant.html">Learning Assistant</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="chat.html">Chatbot</a>
+        <a href="history.html">Learning History</a>
+    </nav>
+
+    <section class="translator-container">
+        <h1>LearnMitra AI Agent</h1>
+        <p>Tell the AI what you want to learn. It will choose the suitable learning task.</p>
+
+        <label for="agentMessage">Enter Your Request</label>
+        <textarea
+            id="agentMessage"
+            placeholder="Example: Explain photosynthesis in Telugu"
+            rows="4"
+        ></textarea>
+
+        <label for="agentLanguage">Preferred Language</label>
+        <select id="agentLanguage">
+            <option value="English">English</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Kannada">Kannada</option>
+        </select>
+
+        <button onclick="runAgent()">Ask LearnMitra AI</button>
+
+        <div id="agentResult">
+            <h3>AI Agent Response</h3>
+            <p id="agentAction"></p>
+            <p id="agentResponse">Your response will appear here.</p>
+        </div>
+    </section>
+
+    <script src="assistant.js"></script>
+
+</body>
+</html>
