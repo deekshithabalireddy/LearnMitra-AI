@@ -139,7 +139,7 @@ try:
 
         st.dataframe(
             display_df[display_columns],
-            use_container_width=True
+            width="stretch"
         )
 
         # Activity Filter
