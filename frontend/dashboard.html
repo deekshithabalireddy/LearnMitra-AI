@@ -4,73 +4,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LearnMitra-AI | Analytics Dashboard</title>
+
+    <title>Analytics Dashboard | LearnMitra-AI</title>
+
     <link rel="stylesheet" href="style.css">
+
     <style>
         .dashboard-container {
-            max-width: 1000px;
-            margin: 60px auto;
+            max-width: 1100px;
+            margin: 50px auto;
             padding: 20px;
+        }
+
+        .dashboard-heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .dashboard-heading h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .dashboard-heading p {
+            color: #666;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
         }
 
         .dashboard-card {
             background: white;
             padding: 30px;
-            margin: 25px 0;
-            border-radius: 14px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .dashboard-icon {
+            font-size: 45px;
+            margin-bottom: 15px;
         }
 
         .dashboard-card h2 {
             margin-bottom: 12px;
+            color: #222;
+        }
+
+        .dashboard-card p {
+            color: #666;
+            line-height: 1.6;
         }
 
         .dashboard-btn {
             display: inline-block;
-            margin-top: 15px;
-            padding: 12px 22px;
+            margin-top: 20px;
+            padding: 12px 24px;
             background: #2563eb;
             color: white;
             text-decoration: none;
             border-radius: 8px;
+            font-weight: bold;
         }
 
         .dashboard-btn:hover {
             background: #1d4ed8;
+        }
+
+        .back-home {
+            display: block;
+            text-align: center;
+            margin-top: 35px;
+            text-decoration: none;
+            color: #2563eb;
+        }
+
+        @media (max-width: 700px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .dashboard-heading h1 {
+                font-size: 25px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <div class="dashboard-container">
-        <h1>LearnMitra-AI Analytics</h1>
-        <p>Explore learning activities and analytics.</p>
+    <nav class="navbar">
+        <h2 class="logo">LearnMitra<span>-AI</span></h2>
 
-        <div class="dashboard-card">
-            <h2>Streamlit Dashboard</h2>
-            <p>View learning activities, translations,
-            quizzes and student activity analytics.</p>
-            <a class="dashboard-btn"
-               href="https://learnmitra-ai.onrender.com/"
-               target="_blank">
-                Open Streamlit Dashboard
-            </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="translator.html">Translator</a></li>
+            <li><a href="assistant.html">Learning Assistant</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="chat.html">Chatbot</a></li>
+            <li><a href="history.html">Learning History</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <main class="dashboard-container">
+
+        <div class="dashboard-heading">
+            <h1>Learning Analytics Dashboard</h1>
+            <p>Explore your learning activities and performance analytics.</p>
         </div>
 
-        <div class="dashboard-card">
-            <h2>Power BI Dashboard</h2>
-            <p>Explore interactive reports, language usage
-            and learning activity visualizations.</p>
-            <a class="dashboard-btn"
-               href="https://app.powerbi.com/groups/me/reports/57137772-8817-4417-8e4c-4b891d8357fa/29a65020501aa468cd3d?experience=power-bi"
-               target="_blank">
-                Open Power BI Dashboard
-            </a>
+        <div class="dashboard-grid">
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-icon">📊</div>
+
+                <h2>Streamlit Dashboard</h2>
+
+                <p>
+                    View learning activities, translations,
+                    explanations, quizzes and chatbot analytics.
+                </p>
+
+                <a
+                    href="https://learnmitra.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="dashboard-btn">
+                    Open Streamlit Dashboard
+                </a>
+
+            </div>
+
+            <div class="dashboard-card">
+
+                <div class="dashboard-icon">📈</div>
+
+                <h2>Power BI Dashboard</h2>
+
+                <p>
+                    Explore interactive reports, language usage,
+                    learning activities and data visualizations.
+                </p>
+
+                <a
+                    href="https://app.powerbi.com/groups/me/reports/57137772-8817-4417-8e4c-4b891d8357fa/29a65020501aa468cd3d?experience=power-bi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="dashboard-btn">
+                    Open Power BI Dashboard
+                </a>
+
+            </div>
+
         </div>
 
-        <a href="index.html">← Back to Home</a>
-    </div>
+        <a href="index.html" class="back-home">
+            ← Back to Home
+        </a>
+
+    </main>
 
 </body>
 </html>
